@@ -26,7 +26,7 @@ jobs:
       
       # Sets up MATLAB on a GitHub-hosted runner
       - name: Set up MATLAB
-        uses: matlab-actions/setup-matlab@
+        uses: matlab-actions/setup-matlab@v2
 
       - name: Install MATLAB Toolboxes
         uses: matlab-actions/install-products@v1
