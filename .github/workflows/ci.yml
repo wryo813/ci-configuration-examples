@@ -29,7 +29,7 @@ jobs:
         uses: matlab-actions/setup-matlab@v2
 
       - name: Install MATLAB Toolboxes
-        uses: matlab-actions/install-products@v1
+        uses: matlab-actions/install-products@v2
         with:
           products: Communications_Toolbox
 
